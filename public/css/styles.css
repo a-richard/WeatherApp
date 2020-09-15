@@ -31,5 +31,8 @@ button {
 .error {
   background-color: #dc3545;
   max-width: 500px;
-  margin: auto;
+}
+
+.main-block {
+  margin: 2rem auto;
 }
