@@ -1,0 +1,13 @@
+<%- include('header'); -%>
+<div class="error">
+  <p class="lead">
+    Oops! There was an error with your request.<br />
+    Please make sure you input a valid city name!
+  </p>
+</div>
+<form action="/failure" method="post">
+  <button class="btn btn-dark" type="submit">
+    Try Again
+  </button>
+</form>
+<%- include('footer'); -%>

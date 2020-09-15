@@ -1,0 +1,36 @@
+body {
+  background-color: #1b1b2f;
+  text-align: center;
+}
+
+h1 {
+  color: #e43f5a;
+  margin-bottom: 1rem;
+}
+
+form input,
+button {
+  margin: 0.5rem 0;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: inherit;
+  color: #fff;
+}
+
+.jumbotron form {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.data {
+  font-weight: bold;
+  color: #ec6e4c;
+}
+
+.error {
+  background-color: #dc3545;
+  max-width: 500px;
+  margin: auto;
+}

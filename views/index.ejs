@@ -1,0 +1,26 @@
+<%- include('header'); -%>
+<p class="lead">
+  Check the current weather without<br />
+  having to look out the window!
+</p>
+<form class="form-inline" action="/" method="post">
+  <input
+    id="textInput"
+    class="form-control mr-sm-2"
+    type="text"
+    placeholder="City Name"
+    name="city"
+  />
+  <button id="formButton" class="btn btn-dark" type="submit" disabled>
+    Search
+  </button>
+</form>
+<script>
+  const input = document.querySelector('#textInput');
+  const button = document.querySelector('#formButton');
+  input.onkeyup = () => {
+    if (input.value) button.removeAttribute('disabled');
+    else button.setAttribute('disabled', '');
+  };
+</script>
+<%- include('footer'); -%>
