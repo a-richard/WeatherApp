@@ -30,7 +30,9 @@ button {
 
 .error {
   background-color: #dc3545;
-  max-width: 500px;
+  max-width: 450px;
+  border-radius: 10px;
+  padding: 5px 0;
 }
 
 .main-block {
