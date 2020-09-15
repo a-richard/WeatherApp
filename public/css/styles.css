@@ -12,6 +12,10 @@ button {
   margin: 0.5rem 0;
 }
 
+p {
+  margin: 0;
+}
+
 .jumbotron {
   text-align: center;
   background-color: inherit;
@@ -32,7 +36,8 @@ button {
   background-color: #dc3545;
   max-width: 450px;
   border-radius: 10px;
-  padding: 5px 0;
+  padding: 10px;
+  margin: auto;
 }
 
 .main-block {

@@ -1,9 +1,11 @@
 <%- include('header'); -%>
-<div class="error main-block">
-  <p class="lead">
-    Oops! There was an error with your request.<br />
-    Please make sure you enter a valid city name!
-  </p>
+<div class="main-block">
+  <div class="error">
+    <p class="lead">
+      Oops! There was an error with your request.<br />
+      Please make sure you enter a valid city name!
+    </p>
+  </div>
 </div>
 <form action="/failure" method="post">
   <button class="btn btn-dark" type="submit">
