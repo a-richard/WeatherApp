@@ -30,11 +30,10 @@ app.post('/', (req, res) => {
           description: weatherDescription,
           icon,
         } = weatherData.weather[0];
-        const imageURL = `http://openweathermap.org/img/wn/${icon}@2x.png`;
         res.render('weather', {
           temperature,
           weatherDescription,
-          imageURL,
+          icon,
           cityName,
           feelsLike,
           country,
